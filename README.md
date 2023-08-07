@@ -39,8 +39,19 @@ counts of each gender (only available for NYC and Chicago)
 earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
 ### Files used
-Include the files used
+You will need the three city dataset files:
+bikeshare.py - final project
+chicago.csv - dataset used for analysis
+new_york_city.csv - dataset used for analysis
+washington.csv - dataset used for analysis
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+These are the links that helped me:
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.mode.html 
+https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.sum.html  
+https://www.geeksforgeeks.org/python-pandas-dataframe-mean/ 
+https://www.geeksforgeeks.org/python-pandas-dataframe/ 
+https://realpython.com/python-string-formatting/
+https://pandas.pydata.org/docs/reference/api/pandas.Series.dt.month.html 
+https://www.w3resource.com/pandas/dataframe/dataframe-mode.php
+https://www.geeksforgeeks.org/python-pandas-dataframe-round/
