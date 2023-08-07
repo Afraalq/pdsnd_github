@@ -20,19 +20,19 @@ def get_filters():
     city = input('Select a city: Chicago, New York City, Washington: \n').lower()
     while city not in ['chicago', 'new york city', 'washington']:
         print('Please enter a valid city') 
-        city = input ('Choose one from the following: Chicago, New York City, Washington: \n').lower()
+        city = input ('Choose one: Chicago, New York City, Washington: \n').lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input('select a month: January, February, March, April, May, June, or type all to display all: \n').lower()
     while month not in ['all','january', 'february', 'march', 'april', 'may', 'june']:
         print('Please enter a valid month') 
-        month = input('Choose one from the following: January, February, March, April, May, June, or all: \n').lower()
+        month = input('Choose one: January, February, March, April, May, June, or all: \n').lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     day = input('Select a day: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type all if to display all: \n').lower()
     while day not in ['all','sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday']:
         print('Please enter a valid day') 
-        day = input('Choose one from the following: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, all: \n').lower()
+        day = input('Choose one: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, all: \n').lower()
 
 
     print('-'*40)
